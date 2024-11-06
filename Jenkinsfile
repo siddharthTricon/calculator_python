@@ -12,7 +12,7 @@ pipeline {
                 script {                     
                     // Upgrade pip and install dependencies globally                     
                     sh '''                     
-                        python -m pip install --upgrade pip                         
+                        /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin -m pip install --upgrade pip                         
                     '''                 
                 }             
             }         
