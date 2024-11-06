@@ -4,7 +4,7 @@ pipeline {
         stage('Checkout') {             
             steps {                 
                 // Checkout the source code from your version control system                 
-                git url: 'https://github.com/adithya17122000/Jenkins', branch: 'master'             
+                git url: 'https://github.com/siddharthTricon/calculator_python', branch: 'master'             
             }         
         }         
         stage('Install Dependencies') {             
